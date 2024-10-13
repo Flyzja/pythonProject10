@@ -3,9 +3,11 @@ from threading import Thread
 from datetime import datetime
 
 def write_words(word_count, file_name):  # количество записываемых слов, название файла, куда будут записываться слова.
-    print(f"Какое-то слово № {word_count}")
+    file = open(file_name, 'w+', encoding='utf-8')
+    file.write(f"Какое-то слово № {word_count}")
     sleep(1.5)
     print(f'Завершилась запись в файл {file_name}')
+    file.close()
 
 time_start1 = datetime.now()
 write_words(10, 'example1.txt')

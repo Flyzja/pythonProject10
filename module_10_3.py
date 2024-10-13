@@ -18,7 +18,6 @@ class Bank:
             print(f"Пополнение: {random_number_up}. Баланс: {self.balance}")
             sleep(0.001)
 
-
     def take(self):
         for i in range(100):
             random_balance_reduction = random.randint(50, 500)
@@ -43,16 +42,3 @@ th1.join()
 th2.join()
 
 print(f'Итоговый баланс: {bk.balance}')
-
-
-
-
-
-
-
-
-
-
-
-
-
