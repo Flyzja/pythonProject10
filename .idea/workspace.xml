@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a76df89-c3a7-499e-b215-c9e92d7e3973" name="Changes" comment="Блокировки и обработка ошибок">
-      <change afterPath="$PROJECT_DIR$/module_10_4.py" afterDir="false" />
+    <list default="true" id="8a76df89-c3a7-499e-b215-c9e92d7e3973" name="Changes" comment="Создание потоков-доработка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_10_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_10_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_10_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_10_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.module_10_1.executor": "Run",
-    "Python.module_10_2.executor": "Run",
-    "Python.module_10_3.executor": "Run",
-    "Python.module_10_4.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.module_10_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_10_4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject10" />
@@ -120,14 +118,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728769257909</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Создание потоков-доработка">
+      <option name="closed" value="true" />
+      <created>1728826370375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728826370375</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание потоков" />
     <MESSAGE value="Потоки на классах" />
     <MESSAGE value="Блокировки и обработка ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Блокировки и обработка ошибок" />
+    <MESSAGE value="Создание потоков-доработка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание потоков-доработка" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -136,6 +143,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/module_10_1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
